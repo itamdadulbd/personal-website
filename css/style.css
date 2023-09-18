@@ -1,0 +1,113 @@
+body{
+    font-family: 'Bitter', serif;
+}
+.top-banner{
+    height: 500px;
+    background: url("../images/header-bg.png");
+    background-repeat: no-repeat;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    margin-right: 2px;
+    padding: 2%;
+}
+.half-width h1{
+    color:mediumvioletred;
+    
+}
+.half-width img{
+    width: 100%;
+}
+.top-single{
+    margin-top: 8%;
+}
+.half-width a{
+    text-decoration: none;
+    text-align: center;
+    padding: 2%;
+    color: white;
+    font-weight: 300;
+    margin-left: 2%;
+    background: -webkit-linear-gradient(180deg,blueviolet,mediumvioletred);
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px darkmagenta;
+}
+.half-width a:hover{
+    background: -webkit-linear-gradient(45deg,mediumvioletred,blueviolet);
+    border-left:4px solid ;
+    border-right: 4px solid;
+    border-image: url("../images/fire.gif");
+    border-image-slice: 1;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.dream-area{
+    height: 500px;
+    background: url("../images/biography-bg.png");
+    background-repeat: repeat;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.single-work{
+    width: 26%;
+}
+.latest-work{
+    height: 500px;
+    background: url("../images/latest-work-bg.png");
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.h-work{
+    margin-left: 39%;
+}
+.footer{
+    margin-top: -18%;
+    background: url("../images/footer-bg.png");
+    background-position:left;
+}
+.contact{
+    margin-left: 29%;
+    width: 50%;
+    text-align: justify;
+}
+.contact h2{
+    margin-left: 24%;
+}
+.contact h5{
+    margin-left: 37%;
+}
+.contact h6{
+    margin-left: 36%;
+    margin-top: -3%;
+    font-weight: 100;
+    font-size: 63%;
+}
+.contact p{
+    text-align: center;
+}
+.contact h4{}
+.contact a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 171%;
+    
+}
+.single-contact{
+    background: -webkit-linear-gradient(180deg,mediumvioletred,blueviolet);
+    padding: 2px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+footer p{
+    
+    margin-left: 34%;
+    margin-top: 5%;
+    color: darkgray;
+
+}
